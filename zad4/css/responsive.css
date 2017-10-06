@@ -1,0 +1,14 @@
+
+
+
+
+
+@media  (max-width:992px)
+{ .foto{
+   width: 46%
+    }
+
+@media  (max-width:480px)
+{ .foto{
+   width: 96%
+    }
