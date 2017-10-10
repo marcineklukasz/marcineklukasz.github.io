@@ -1,0 +1,21 @@
+body
+{
+    margin: 0;
+    background-image: url(../obrazy/man-1.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+
+header
+{
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 20%;
+    font-size: 2em;
+    
+    
+}

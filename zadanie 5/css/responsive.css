@@ -1,0 +1,36 @@
+@media all and (max-width: 1170px)
+{
+    body
+    {
+        background-image: url(../obrazy/man-2.jpg);
+        background-position: top;
+    }
+    header
+    {
+        float: right;
+        margin-right: 7%;
+        font-size: 1.2em;
+        text-align: left;
+        margin-top: 5%;
+    }
+}
+
+
+@media all and (max-width: 992px)
+{
+    body
+    {
+        background-image: url(../obrazy/man-1.jpg);
+       background-size: contain;
+    }
+    header
+    {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: auto;
+        color: black;
+        float: none;
+        margin-top: 75%;
+        
+    }
+}
