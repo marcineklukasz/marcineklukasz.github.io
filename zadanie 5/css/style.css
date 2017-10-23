@@ -2,20 +2,25 @@ body
 {
     margin: 0;
     background-image: url(../obrazy/man-1.jpg);
-     background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    
+  
+   
     
     
     
 }
 
-header
+
+header .header--main
 {
-    color: #fff;
-    margin-left: 10%;
-    margin-top: 20%;
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:5%;
     font-size: 2em;
-    
-    
 }

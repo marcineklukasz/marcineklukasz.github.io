@@ -5,13 +5,12 @@
         background-image: url(../obrazy/man-2.jpg);
         background-position: top;
     }
-    header
+   header .header--main
     {
-        float: right;
-        margin-right: 7%;
+        left:  52%;
         font-size: 1.2em;
         text-align: left;
-        margin-top: 5%;
+        top:10%;
     }
 }
 
@@ -21,16 +20,18 @@
     body
     {
         background-image: url(../obrazy/man-1.jpg);
-       background-size: contain;
+      
     }
-    header
+        
+    header .header--main
     {
         font-size: 1.2em;
-        text-align: center;
-        margin-top: auto;
         color: black;
-        float: none;
-        margin-top: 75%;
+       text-align: center;
+        left: 0;
+        right: 0;
+        top: 45%;
+
         
     }
 }
