@@ -1,0 +1,45 @@
+@media all and (max-width: 1170px)
+{
+    body
+    {
+        background-image: url(../obrazy/man-2.jpg);
+        background-position: top;
+    }
+    .bula
+    {
+        height: 70vh;
+        top:5%;
+    }
+   header .header--main
+    {
+        left:  52%;
+        font-size: 1.2em;
+        text-align: left;
+       top: 25%;
+    }
+}
+
+
+@media all and (max-width: 992px)
+{
+    body
+    {
+        background-image: url(../obrazy/man-1.jpg);
+      
+    }
+        
+    header .header--main
+    {
+        font-size: 1.2em;
+        color: black;
+       text-align: center;
+        left: 0;
+        right: 0;
+      top: 100%; 
+
+        
+    }
+    .bula{
+         
+    }
+}

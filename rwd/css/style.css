@@ -1,0 +1,25 @@
+body
+{
+    margin: 0;  
+    background-image: url(../obrazy/man-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+header
+{
+     
+    height: 100vh;
+}
+
+
+header .header--main
+{
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:5%;
+    font-size: 2em;
+}
