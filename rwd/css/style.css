@@ -1,6 +1,9 @@
 body
 {
-    margin: 0;  
+    
+}
+.bula
+{
     background-image: url(../obrazy/man-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;

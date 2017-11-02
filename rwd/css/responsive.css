@@ -2,13 +2,14 @@
 {
     body
     {
-        background-image: url(../obrazy/man-2.jpg);
-        background-position: top;
+ 
     }
     .bula
     {
         height: 70vh;
         top:5%;
+               background-image: url(../obrazy/man-2.jpg);
+        background-position: top;
     }
    header .header--main
     {
@@ -22,9 +23,10 @@
 
 @media all and (max-width: 992px)
 {
-    body
+    .bula
     {
         background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
       
     }
         
