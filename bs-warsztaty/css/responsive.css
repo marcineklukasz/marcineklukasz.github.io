@@ -1,0 +1,10 @@
+@media all and (max-width: 992px) {
+    #main-nav {
+        background-color: #FFF;
+    }
+    
+    #main-nav .navbar-brand,
+    #main-nav .navbar-nav .nav-item .nav-link {
+        color: #0ED8D6;
+    }
+}
