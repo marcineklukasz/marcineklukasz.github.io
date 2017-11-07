@@ -1,0 +1,90 @@
+body {
+  margin: 0; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+#main-header {
+  height: 100vh;
+  background: url("../../img/background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  #main-header .header-inner {
+    display: inline-block; }
+    #main-header .header-inner#logo {
+      float: left; }
+      #main-header .header-inner#logo .fa,
+      #main-header .header-inner#logo h1 {
+        display: inline-block; }
+      #main-header .header-inner#logo .fa {
+        color: #ECD407;
+        font-size: 34px; }
+      #main-header .header-inner#logo h1 {
+        color: #FFFFFF;
+        font-family: "Open-sans", sans-serif; }
+    #main-header .header-inner#header-contact {
+      padding-top: 20px;
+      float: right;
+      width: 15%; }
+      #main-header .header-inner#header-contact .fa {
+        color: #FFFFFF;
+        font-size: 36px;
+        float: left;
+        margin-right: 5px; }
+      #main-header .header-inner#header-contact span {
+        color: #FFFFFF;
+        display: block;
+        line-height: 20px;
+        font-family: "Open-sans", sans-serif; }
+
+.header-form {
+  width: 25%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%); }
+  .header-form h2 {
+    color: #FFFFFF; }
+    .header-form h2 span {
+      color: #ECD407; }
+  .header-form #main-form {
+    background-color: #001D8A;
+    padding: 10px;
+    overflow: hidden; }
+    .header-form #main-form input,
+    .header-form #main-form textarea {
+      width: 100%;
+      height: 40px;
+      padding: 5px;
+      box-sizing: border-box; }
+    .header-form #main-form input {
+      margin-bottom: 5px; }
+      .header-form #main-form input[type="submit"] {
+        background-color: #ECD407;
+        float: left;
+        width: 25%;
+        text-transform: uppercase;
+        border: none;
+        font-family: "Open-sans", sans-serif; }
+        .header-form #main-form input[type="submit"]:focus {
+          color: green; }
+
+footer {
+  background-color: #292929;
+  padding-top: 20px;
+  text-align: center; }
+  footer .col-50 {
+    display: inline-block;
+    width: 50%;
+    float: left; }
+    footer .col-50 .fa {
+      background-color: #ECD407;
+      width: 50px;
+      height: 50px;
+      line-height: 50px; }
+  footer p {
+    font-family: "Open-sans", sans-serif;
+    color: #FFFFFF; }

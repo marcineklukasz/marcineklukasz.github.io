@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@import '../header/header';
+@import '../form/form';
+@import '../footer/footer';

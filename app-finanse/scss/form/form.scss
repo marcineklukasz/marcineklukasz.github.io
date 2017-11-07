@@ -1,0 +1,48 @@
+@import '../variables/variables';
+
+.header-form {
+    width: 25%;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    h2 {
+        color: $bialy;
+        
+        span {
+            color: $zolty;
+        }
+    }
+    
+    #main-form {
+        background-color: $niebiesko-granatowy;
+        padding: 10px;
+        overflow: hidden;
+        
+        input,
+        textarea {
+            width: 100%;
+            height: 40px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        
+        input {
+            margin-bottom: 5px;
+            
+            &[type="submit"] {
+                background-color: $zolty;
+                float: left;
+                width: 25%;
+                text-transform: uppercase;
+                border: none;
+                font-family: $font;
+                
+                &:focus {
+                    color: green;
+                }
+            }
+        }
+    }
+}

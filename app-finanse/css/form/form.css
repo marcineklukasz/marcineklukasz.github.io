@@ -1,0 +1,31 @@
+.header-form {
+  width: 25%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%); }
+  .header-form h2 {
+    color: #FFFFFF; }
+    .header-form h2 span {
+      color: #ECD407; }
+  .header-form #main-form {
+    background-color: #001D8A;
+    padding: 10px;
+    overflow: hidden; }
+    .header-form #main-form input,
+    .header-form #main-form textarea {
+      width: 100%;
+      height: 40px;
+      padding: 5px;
+      box-sizing: border-box; }
+    .header-form #main-form input {
+      margin-bottom: 5px; }
+      .header-form #main-form input[type="submit"] {
+        background-color: #ECD407;
+        float: left;
+        width: 25%;
+        text-transform: uppercase;
+        border: none;
+        font-family: "Open-sans", sans-serif; }
+        .header-form #main-form input[type="submit"]:focus {
+          color: green; }

@@ -1,0 +1,52 @@
+@import "variables";
+@import "mixins";
+ 
+@media (max-width: 1170px) {
+	.container {
+		width: 992px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.container {
+		width: 768px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+	
+	header {
+		#main-logo {
+			display: block;
+			float: none;
+			margin: auto;
+			text-align: center;
+			
+			.fa {
+				float: none;
+			}
+			
+		}
+		
+		.header-contact {
+			display: none;
+		}
+	}
+	
+	
+	#form-section {
+		text-align: center;
+		
+		.form-section-right {
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	} 
+}
