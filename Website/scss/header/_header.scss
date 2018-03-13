@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+header{
+    
+    position: absolute;
+    z-index: 5;
+    right: 5%;
+    color: white;
+    .nav-link{
+        color: white;
+    }
+    #navi:hover{
+        background-color: #4F90FF;
+        border-radius: 5px;
+        border: none;
+    }
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+
+

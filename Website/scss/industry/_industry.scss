@@ -1,0 +1,47 @@
+#industry{
+    padding: 5%;
+        
+        .orange-braek{
+            width: 100px;
+            border-top: orange 5px solid;
+            display: inline-block;
+        
+    }
+        
+    .blog-box {
+       
+        display: inline-block;
+            margin-left: auto;
+    margin-right: auto;
+       
+        
+    }
+    #blogimg1{
+        background-image: url(../../img/blog/Layer%2043.png);
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        
+        
+            
+    }
+     #blogimg2{
+        background-image: url(../../img/blog/Layer%2044.png);
+         height: 200px;
+        width: 100%;
+         background-size: cover;
+            
+    }
+     #blogimg3{
+        background-image: url(../../img/blog/Layer%2045.png);
+         height: 200px;
+        width: 100%;
+         background-size: cover;
+    }
+
+
+
+    
+   
+    
+}

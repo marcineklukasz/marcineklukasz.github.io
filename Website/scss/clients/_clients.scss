@@ -1,0 +1,59 @@
+#clients{
+width: 100%;
+    
+    
+    
+    
+    
+    
+    .row-clients{
+        width: 100%;
+        margin: 0;
+        height: 8vh;
+    }
+    
+    .grey{
+
+    background-repeat: no-repeat;
+    min-width: 30%;
+    height: 100%;
+        #hidden{
+            background-image: url(../../img/clients/Layer%2042.png);
+            background-size: cover;
+            height: 100%;
+        }
+}
+    
+    .one{
+       
+        height: 100%;
+        width: 13%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+       
+        filter: grayscale(100%);
+        display: inline-block;
+    }
+    #one1{
+        
+        background-image: url(../../img/clients/Layer%204.png);
+    }
+    #two{
+        background-image: url(../../img/clients/Layer%206.png)
+    }
+    #three{
+        background-image: url(../../img/clients/Layer%207.png)
+    }#four{
+        background-image: url(../../img/clients/Layer%208.png)
+    }#five{
+        background-image: url(../../img/clients/Layer%2010.png);
+      
+            
+    }
+    
+}
+
+
